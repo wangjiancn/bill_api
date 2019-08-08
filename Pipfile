@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"                                                                   
+url = "https://pypi.doubanio.com/simple"                                        
+verify_ssl = true                                                               
+
+[dev-packages]
+autopep8 = "*"
+pylint = "*"
+aiohttp-devtools = "*"
+
+[packages]
+aiohttp = "*"
+motor = "*"
+marshmallow = ">=3"
+arrow = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true

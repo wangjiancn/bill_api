@@ -1,0 +1,15 @@
+# 自定义
+__pycache__
+.idea/
+.venv
+.env
+/out
+
+/node_*
+upload/*.*
+
+.vscode
+/node_modules
+
+media/**/*.*
+!.gitkeep
